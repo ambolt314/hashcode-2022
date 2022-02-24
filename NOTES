@@ -1,0 +1,20 @@
+INPUT
+
+Line 0:
+    1 <= C <= 10^5  Number of contributors
+    1 <= P <= 10^5  Number of projects
+
+C sections consisting of:
+    str:Name    int:number_of_skills
+    # N lines of:
+    str:skill_name  int:skill_level
+
+P sections consisting of:
+    str:name    int:Di  int:Si  int:Bi  int:Ri
+    # Di: Days to complete
+    # Si: Score for completion
+    # Bi: Best before day
+    # Ri: Number of roles
+
+    # Ri lines of
+    skill_name skill_level
